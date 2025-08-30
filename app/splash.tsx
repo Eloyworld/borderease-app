@@ -1,21 +1,23 @@
-import { useRouter } from 'expo-router';
+﻿import { useRouter } from 'expo-router';
 import { useEffect } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, View, Text } from 'react-native';
+import splash from '../assets/images/splash.png';
 
 export default function SplashScreen() {
   const router = useRouter();
-
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       router.replace('/language');
     }, 2000);
-
+    
     return () => clearTimeout(timer);
   }, []);
-
+  
   return (
     <View style={styles.container}>
-      <Text style={styles.logoText}>Beyond Borders</Text>
+      <Image source={splash} style={styles.splashImage} resizeMode='cover' />
+      <Text style={styles.welcomeText}>Welcome</Text>
     </View>
   );
 }
@@ -23,14 +25,22 @@ export default function SplashScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#000000',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#3498db',
   },
-  logoText: {
-    fontSize: 42,
+  splashImage: {
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+  },
+  welcomeText: {
+    fontSize: 48,
     fontWeight: 'bold',
     color: '#ffffff',
-    letterSpacing: 1,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: 2, height: 2 },
+    textShadowRadius: 5,
+    zIndex: 1,
   },
 });

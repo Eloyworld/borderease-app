@@ -1,12 +1,22 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
+﻿import { Image, StyleSheet, View, useWindowDimensions } from 'react-native';
 import logo from '../../assets/images/icon.png';
 
 export default function HomeScreen() {
+  const { width, height } = useWindowDimensions();
+  
   return (
     <View style={styles.container}>
-      <Image source={logo} style={styles.logo} />
-      <Text style={styles.title}>Beyond Borders</Text>
-      <Text style={styles.subtitle}>Your travel companion for border crossings</Text>
+      <Image 
+        source={logo} 
+        style={[
+          styles.logo,
+          {
+            width: width,
+            height: height * 0.8, // Use 80% of screen height
+          }
+        ]} 
+        resizeMode='stretch' // This will stretch the image to fill the space
+      />
     </View>
   );
 }
@@ -14,26 +24,8 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#ffffff',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f8f9fa',
-    padding: 20,
-  },
-  logo: {
-    width: 180,
-    height: 180,
-    marginBottom: 24,
-    resizeMode: 'contain',
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: 'bold',
-    color: '#2c3e50',
-    marginBottom: 8,
-  },
-  subtitle: {
-    fontSize: 18,
-    color: '#7f8c8d',
-    textAlign: 'center',
   },
 });
