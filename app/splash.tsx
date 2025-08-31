@@ -1,7 +1,6 @@
 ﻿import { useRouter } from 'expo-router';
 import { useEffect } from 'react';
-import { Image, StyleSheet, View, Text } from 'react-native';
-import splash from '../assets/images/splash.png';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function SplashScreen() {
   const router = useRouter();
@@ -16,8 +15,8 @@ export default function SplashScreen() {
   
   return (
     <View style={styles.container}>
-      <Image source={splash} style={styles.splashImage} resizeMode='cover' />
-      <Text style={styles.welcomeText}>Welcome</Text>
+      <Text style={styles.welcomeText}>Welcome to Beyond Borders</Text>
+      <Text style={styles.taglineText}>Your travel companion for crossing borders</Text>
     </View>
   );
 }
@@ -25,22 +24,21 @@ export default function SplashScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: '#2c3e50', // Dark blue background
     justifyContent: 'center',
     alignItems: 'center',
   },
-  splashImage: {
-    position: 'absolute',
-    width: '100%',
-    height: '100%',
-  },
   welcomeText: {
-    fontSize: 48,
+    fontSize: 36,
     fontWeight: 'bold',
     color: '#ffffff',
-    textShadowColor: 'rgba(0, 0, 0, 0.75)',
-    textShadowOffset: { width: 2, height: 2 },
-    textShadowRadius: 5,
-    zIndex: 1,
+    marginBottom: 20,
+    textAlign: 'center',
+  },
+  taglineText: {
+    fontSize: 20,
+    color: '#ecf0f1',
+    textAlign: 'center',
+    paddingHorizontal: 40,
   },
 });

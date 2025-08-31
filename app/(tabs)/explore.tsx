@@ -1,13 +1,11 @@
-import { Image } from 'expo-image';
+﻿import { Image } from 'expo-image';
 import { Platform, StyleSheet } from 'react-native';
-
 import { Collapsible } from '@/components/Collapsible';
 import { ExternalLink } from '@/components/ExternalLink';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
-
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
@@ -50,7 +48,7 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
           different screen densities
         </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
+        <Image source={require('@/assets/images/Logo 1.png')} style={{ alignSelf: 'center', width: 200, height: 200 }} />
         <ExternalLink href="https://reactnative.dev/docs/images">
           <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
@@ -95,7 +93,6 @@ export default function TabTwoScreen() {
     </ParallaxScrollView>
   );
 }
-
 const styles = StyleSheet.create({
   headerImage: {
     color: '#808080',

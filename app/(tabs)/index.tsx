@@ -12,10 +12,10 @@ export default function HomeScreen() {
           styles.logo,
           {
             width: width,
-            height: height * 0.8, // Use 80% of screen height
+            height: height * 0.8,
           }
         ]} 
-        resizeMode='stretch' // This will stretch the image to fill the space
+        resizeMode='stretch' 
       />
     </View>
   );
@@ -27,5 +27,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  logo: {
+    width: '100%',
+    height: '80%',
   },
 });

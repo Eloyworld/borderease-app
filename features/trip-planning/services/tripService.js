@@ -1,6 +1,4 @@
-import { FEATURE_FLAGS } from '../../../config/features';
-
-// This is mock data - in a real app, this would come from a server
+﻿// This is mock data - in a real app, this would come from a server
 const mockTrips = [
   {
     id: 'trip-1',
@@ -12,33 +10,28 @@ const mockTrips = [
     notes: 'Motorcycle trip through Thailand and Malaysia',
   },
 ];
-
 // This function creates a new trip
 export const createTrip = async (tripData) => {
   // In a real app, this would save to a database
   const newTrip = {
-    id: `trip-${Date.now()}`,
+    id: 'trip-' + Date.now(),
     ...tripData,
     status: 'planned',
     createdAt: new Date().toISOString(),
   };
-  
   mockTrips.push(newTrip);
   return newTrip;
 };
-
 // This function gets all trips for the user
 export const getUserTrips = async () => {
   // In a real app, this would fetch from a database
   return mockTrips;
 };
-
 // This function gets a specific trip by ID
 export const getTripById = async (tripId) => {
   // In a real app, this would fetch from a database
   return mockTrips.find(trip => trip.id === tripId);
 };
-
 // This function updates a trip
 export const updateTrip = async (tripId, updates) => {
   // In a real app, this would update in a database
@@ -49,7 +42,6 @@ export const updateTrip = async (tripId, updates) => {
   }
   return null;
 };
-
 // This function deletes a trip
 export const deleteTrip = async (tripId) => {
   // In a real app, this would delete from a database
@@ -60,7 +52,6 @@ export const deleteTrip = async (tripId) => {
   }
   return false;
 };
-
 // This function adds a border to a trip
 export const addBorderToTrip = async (tripId, borderId) => {
   const trip = await getTripById(tripId);
@@ -70,7 +61,6 @@ export const addBorderToTrip = async (tripId, borderId) => {
   }
   return null;
 };
-
 // This function removes a border from a trip
 export const removeBorderFromTrip = async (tripId, borderId) => {
   const trip = await getTripById(tripId);
@@ -80,8 +70,8 @@ export const removeBorderFromTrip = async (tripId, borderId) => {
   }
   return null;
 };
-
 // This function checks if the feature is enabled
 export const isTripPlanningEnabled = () => {
-  return FEATURE_FLAGS.TRIP_PLANNING;
+  // Since we removed the feature flags, we'll just return true
+  return true;
 };

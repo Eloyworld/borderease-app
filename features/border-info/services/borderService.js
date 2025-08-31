@@ -1,6 +1,4 @@
-import { FEATURE_FLAGS } from '../../../config/features';
-
-// This is mock data - in a real app, this would come from a server
+﻿// This is mock data - in a real app, this would come from a server
 const mockBorders = [
   {
     id: 'us-can-peace-arch',
@@ -39,21 +37,19 @@ const mockBorders = [
     coordinates: { lat: 6.4938, lng: 100.4257 },
   },
 ];
-
 // This function gets information about a specific border
 export const getBorderInfo = async (borderId) => {
   // In a real app, this would be an API call to a server
   return mockBorders.find(border => border.id === borderId);
 };
-
 // This function gets borders near a location
 export const getNearestBorders = async (latitude, longitude) => {
   // In a real app, this would calculate distances based on coordinates
   // For now, we'll just return all borders
   return mockBorders;
 };
-
 // This function checks if the feature is enabled
 export const isBorderInfoEnabled = () => {
-  return FEATURE_FLAGS.BORDER_INFO;
+  // Since we removed the feature flags, we'll just return true
+  return true;
 };
