@@ -1,4 +1,4 @@
-package com.anonymous.BeyondBorders
+package com.anonymous.beyondborders
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

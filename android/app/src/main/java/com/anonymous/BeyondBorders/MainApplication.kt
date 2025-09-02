@@ -1,4 +1,4 @@
-package com.anonymous.BeyondBorders
+package com.anonymous.beyondborders
 
 import android.app.Application
 import android.content.res.Configuration

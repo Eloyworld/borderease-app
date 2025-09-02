@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.BeyondBorders'
+    namespace 'com.anonymous.beyondborders'
     defaultConfig {
-        applicationId 'com.anonymous.BeyondBorders'
+        applicationId 'com.anonymous.beyondborders'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,44 +1,34 @@
-﻿import { useRouter } from 'expo-router';
-import { useEffect } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+﻿import { useRouter } from "expo-router";
+import React, { useEffect } from "react";
+import { ImageBackground, StatusBar, StyleSheet, View } from "react-native";
 
-export default function SplashScreen() {
+const SPLASH_MS = 2500; // 2.5 seconds
+
+export default function Splash() {
   const router = useRouter();
-  
+
   useEffect(() => {
-    const timer = setTimeout(() => {
-      router.replace('/language');
-    }, 2000);
-    
-    return () => clearTimeout(timer);
-  }, []);
-  
+    const t = setTimeout(() => {
+      // 👇 First screen after splash (change if needed)
+      router.replace("/language");
+    }, SPLASH_MS);
+
+    return () => clearTimeout(t);
+  }, [router]);
+
   return (
     <View style={styles.container}>
-      <Text style={styles.welcomeText}>Welcome to Beyond Borders</Text>
-      <Text style={styles.taglineText}>Your travel companion for crossing borders</Text>
+      <StatusBar hidden />
+      <ImageBackground
+        source={require("../assets/splash.png")}
+        style={styles.bg}
+        resizeMode="contain" // 👈 change "contain" → "cover" if you want full bleed
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#2c3e50', // Dark blue background
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  welcomeText: {
-    fontSize: 36,
-    fontWeight: 'bold',
-    color: '#ffffff',
-    marginBottom: 20,
-    textAlign: 'center',
-  },
-  taglineText: {
-    fontSize: 20,
-    color: '#ecf0f1',
-    textAlign: 'center',
-    paddingHorizontal: 40,
-  },
+  container: { flex: 1, backgroundColor: "#000" },
+  bg: { flex: 1, width: "100%", height: "100%" },
 });
