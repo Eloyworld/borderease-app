@@ -1,36 +1,37 @@
-﻿{
-  "expo": {
-    "name": "Beyond Borders",
-    "slug": "beyond-borders",
-    "version": "1.0.2",
-    "orientation": "portrait",
-    "icon": "./assets/images/logo.png",
-    "scheme": "bordereaseapp",
-    "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "com.anonymous.beyondborders"
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "projectId": "741bbabc-459d-4ffe-8ae5-7c0ab59113cd"
-      }
-    }
-  }
+{
+    "expo":  {
+                 "name":  "Beyond Borders",
+                 "slug":  "beyond-borders",
+                 "version":  "1.0.2",
+                 "orientation":  "portrait",
+                 "icon":  "./assets/images/logo.png",
+                 "scheme":  "bordereaseapp",
+                 "userInterfaceStyle":  "automatic",
+                 "assetBundlePatterns":  [
+                                             "**/*"
+                                         ],
+                 "ios":  {
+                             "supportsTablet":  true,
+                             "bundleIdentifier":  "com.eloyworld.beyondborders"
+                         },
+                 "android":  {
+                                 "package":  "com.anonymous.beyondborders"
+                             },
+                 "web":  {
+                             "bundler":  "metro",
+                             "output":  "static",
+                             "favicon":  "./assets/images/favicon.png"
+                         },
+                 "plugins":  [
+                                 "expo-router"
+                             ],
+                 "experiments":  {
+                                     "typedRoutes":  true
+                                 },
+                 "extra":  {
+                               "eas":  {
+                                           "projectId":  "741bbabc-459d-4ffe-8ae5-7c0ab59113cd"
+                                       }
+                           }
+             }
 }
