@@ -1,26 +1,15 @@
 {
-    "cli":  {
-                "version":  "\u003e= 16.18.0",
-                "appVersionSource":  "remote"
-            },
-    "build":  {
-                  "development":  {
-                                      "developmentClient":  true,
-                                      "distribution":  "internal"
-                                  },
-                  "preview":  {
-                                  "distribution":  "internal",
-                                  "ios":  {
-
-                                          }
-                              },
-                  "production":  {
-                                     "autoIncrement":  true
-                                 }
-              },
-    "submit":  {
-                   "production":  {
-
-                                  }
-               }
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview"
+    },
+    "production": {
+      "distribution": "store",
+      "channel": "production"
+    }
+  },
+  "cli": {
+    "version": ">= 3.0.0"
+  }
 }
