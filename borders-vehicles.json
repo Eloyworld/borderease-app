@@ -1,0 +1,4110 @@
+[
+  {
+    "id": "afg-pak",
+    "country_from": "Afghanistan",
+    "country_from_iso3": "AFG",
+    "country_to": "Pakistan",
+    "country_to_iso3": "PAK",
+    "border_name": "Afghanistan–Pakistan Crossing",
+    "border_slug": "afg-pak",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "afg-irn",
+    "country_from": "Afghanistan",
+    "country_from_iso3": "AFG",
+    "country_to": "Iran",
+    "country_to_iso3": "IRN",
+    "border_name": "Afghanistan–Iran Crossing",
+    "border_slug": "afg-irn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "afg-tjk",
+    "country_from": "Afghanistan",
+    "country_from_iso3": "AFG",
+    "country_to": "Tajikistan",
+    "country_to_iso3": "TJK",
+    "border_name": "Afghanistan–Tajikistan Crossing",
+    "border_slug": "afg-tjk",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "afg-uzb",
+    "country_from": "Afghanistan",
+    "country_from_iso3": "AFG",
+    "country_to": "Uzbekistan",
+    "country_to_iso3": "UZB",
+    "border_name": "Afghanistan–Uzbekistan Crossing",
+    "border_slug": "afg-uzb",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "afg-tkm",
+    "country_from": "Afghanistan",
+    "country_from_iso3": "AFG",
+    "country_to": "Turkmenistan",
+    "country_to_iso3": "TKM",
+    "border_name": "Afghanistan–Turkmenistan Crossing",
+    "border_slug": "afg-tkm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "pak-afg",
+    "country_from": "Pakistan",
+    "country_from_iso3": "PAK",
+    "country_to": "Afghanistan",
+    "country_to_iso3": "AFG",
+    "border_name": "Pakistan–Afghanistan Crossing",
+    "border_slug": "pak-afg",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "pak-ind",
+    "country_from": "Pakistan",
+    "country_from_iso3": "PAK",
+    "country_to": "India",
+    "country_to_iso3": "IND",
+    "border_name": "Pakistan–India Crossing",
+    "border_slug": "pak-ind",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "pak-irn",
+    "country_from": "Pakistan",
+    "country_from_iso3": "PAK",
+    "country_to": "Iran",
+    "country_to_iso3": "IRN",
+    "border_name": "Pakistan–Iran Crossing",
+    "border_slug": "pak-irn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "pak-chn",
+    "country_from": "Pakistan",
+    "country_from_iso3": "PAK",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Pakistan–China Crossing",
+    "border_slug": "pak-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "ind-pak",
+    "country_from": "India",
+    "country_from_iso3": "IND",
+    "country_to": "Pakistan",
+    "country_to_iso3": "PAK",
+    "border_name": "India–Pakistan Crossing",
+    "border_slug": "ind-pak",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "ind-chn",
+    "country_from": "India",
+    "country_from_iso3": "IND",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "India–China Crossing",
+    "border_slug": "ind-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "ind-npl",
+    "country_from": "India",
+    "country_from_iso3": "IND",
+    "country_to": "Nepal",
+    "country_to_iso3": "NPL",
+    "border_name": "India–Nepal Crossing",
+    "border_slug": "ind-npl",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "ind-btn",
+    "country_from": "India",
+    "country_from_iso3": "IND",
+    "country_to": "Bhutan",
+    "country_to_iso3": "BTN",
+    "border_name": "India–Bhutan Crossing",
+    "border_slug": "ind-btn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "ind-bgd",
+    "country_from": "India",
+    "country_from_iso3": "IND",
+    "country_to": "Bangladesh",
+    "country_to_iso3": "BGD",
+    "border_name": "India–Bangladesh Crossing",
+    "border_slug": "ind-bgd",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "ind-mmr",
+    "country_from": "India",
+    "country_from_iso3": "IND",
+    "country_to": "Myanmar",
+    "country_to_iso3": "MMR",
+    "border_name": "India–Myanmar Crossing",
+    "border_slug": "ind-mmr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-ind",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "India",
+    "country_to_iso3": "IND",
+    "border_name": "China–India Crossing",
+    "border_slug": "chn-ind",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-pak",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Pakistan",
+    "country_to_iso3": "PAK",
+    "border_name": "China–Pakistan Crossing",
+    "border_slug": "chn-pak",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-afg",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Afghanistan",
+    "country_to_iso3": "AFG",
+    "border_name": "China–Afghanistan Crossing",
+    "border_slug": "chn-afg",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-tjk",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Tajikistan",
+    "country_to_iso3": "TJK",
+    "border_name": "China–Tajikistan Crossing",
+    "border_slug": "chn-tjk",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-kgz",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Kyrgyzstan",
+    "country_to_iso3": "KGZ",
+    "border_name": "China–Kyrgyzstan Crossing",
+    "border_slug": "chn-kgz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-kaz",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Kazakhstan",
+    "country_to_iso3": "KAZ",
+    "border_name": "China–Kazakhstan Crossing",
+    "border_slug": "chn-kaz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-rus",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Russia",
+    "country_to_iso3": "RUS",
+    "border_name": "China–Russia Crossing",
+    "border_slug": "chn-rus",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-mng",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Mongolia",
+    "country_to_iso3": "MNG",
+    "border_name": "China–Mongolia Crossing",
+    "border_slug": "chn-mng",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-prk",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "North Korea",
+    "country_to_iso3": "PRK",
+    "border_name": "China–North Korea Crossing",
+    "border_slug": "chn-prk",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-vnm",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Vietnam",
+    "country_to_iso3": "VNM",
+    "border_name": "China–Vietnam Crossing",
+    "border_slug": "chn-vnm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-lao",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Laos",
+    "country_to_iso3": "LAO",
+    "border_name": "China–Laos Crossing",
+    "border_slug": "chn-lao",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "chn-mmr",
+    "country_from": "China",
+    "country_from_iso3": "CHN",
+    "country_to": "Myanmar",
+    "country_to_iso3": "MMR",
+    "border_name": "China–Myanmar Crossing",
+    "border_slug": "chn-mmr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "rus-chn",
+    "country_from": "Russia",
+    "country_from_iso3": "RUS",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Russia–China Crossing",
+    "border_slug": "rus-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "rus-mng",
+    "country_from": "Russia",
+    "country_from_iso3": "RUS",
+    "country_to": "Mongolia",
+    "country_to_iso3": "MNG",
+    "border_name": "Russia–Mongolia Crossing",
+    "border_slug": "rus-mng",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "rus-kaz",
+    "country_from": "Russia",
+    "country_from_iso3": "RUS",
+    "country_to": "Kazakhstan",
+    "country_to_iso3": "KAZ",
+    "border_name": "Russia–Kazakhstan Crossing",
+    "border_slug": "rus-kaz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "rus-prk",
+    "country_from": "Russia",
+    "country_from_iso3": "RUS",
+    "country_to": "North Korea",
+    "country_to_iso3": "PRK",
+    "border_name": "Russia–North Korea Crossing",
+    "border_slug": "rus-prk",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "rus-geo",
+    "country_from": "Russia",
+    "country_from_iso3": "RUS",
+    "country_to": "Georgia",
+    "country_to_iso3": "GEO",
+    "border_name": "Russia–Georgia Crossing",
+    "border_slug": "rus-geo",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "rus-aze",
+    "country_from": "Russia",
+    "country_from_iso3": "RUS",
+    "country_to": "Azerbaijan",
+    "country_to_iso3": "AZE",
+    "border_name": "Russia–Azerbaijan Crossing",
+    "border_slug": "rus-aze",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kaz-rus",
+    "country_from": "Kazakhstan",
+    "country_from_iso3": "KAZ",
+    "country_to": "Russia",
+    "country_to_iso3": "RUS",
+    "border_name": "Kazakhstan–Russia Crossing",
+    "border_slug": "kaz-rus",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kaz-chn",
+    "country_from": "Kazakhstan",
+    "country_from_iso3": "KAZ",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Kazakhstan–China Crossing",
+    "border_slug": "kaz-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kaz-kgz",
+    "country_from": "Kazakhstan",
+    "country_from_iso3": "KAZ",
+    "country_to": "Kyrgyzstan",
+    "country_to_iso3": "KGZ",
+    "border_name": "Kazakhstan–Kyrgyzstan Crossing",
+    "border_slug": "kaz-kgz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kaz-uzb",
+    "country_from": "Kazakhstan",
+    "country_from_iso3": "KAZ",
+    "country_to": "Uzbekistan",
+    "country_to_iso3": "UZB",
+    "border_name": "Kazakhstan–Uzbekistan Crossing",
+    "border_slug": "kaz-uzb",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kaz-tkm",
+    "country_from": "Kazakhstan",
+    "country_from_iso3": "KAZ",
+    "country_to": "Turkmenistan",
+    "country_to_iso3": "TKM",
+    "border_name": "Kazakhstan–Turkmenistan Crossing",
+    "border_slug": "kaz-tkm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "uzb-kaz",
+    "country_from": "Uzbekistan",
+    "country_from_iso3": "UZB",
+    "country_to": "Kazakhstan",
+    "country_to_iso3": "KAZ",
+    "border_name": "Uzbekistan–Kazakhstan Crossing",
+    "border_slug": "uzb-kaz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "uzb-kgz",
+    "country_from": "Uzbekistan",
+    "country_from_iso3": "UZB",
+    "country_to": "Kyrgyzstan",
+    "country_to_iso3": "KGZ",
+    "border_name": "Uzbekistan–Kyrgyzstan Crossing",
+    "border_slug": "uzb-kgz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "uzb-tjk",
+    "country_from": "Uzbekistan",
+    "country_from_iso3": "UZB",
+    "country_to": "Tajikistan",
+    "country_to_iso3": "TJK",
+    "border_name": "Uzbekistan–Tajikistan Crossing",
+    "border_slug": "uzb-tjk",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "uzb-afg",
+    "country_from": "Uzbekistan",
+    "country_from_iso3": "UZB",
+    "country_to": "Afghanistan",
+    "country_to_iso3": "AFG",
+    "border_name": "Uzbekistan–Afghanistan Crossing",
+    "border_slug": "uzb-afg",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "uzb-tkm",
+    "country_from": "Uzbekistan",
+    "country_from_iso3": "UZB",
+    "country_to": "Turkmenistan",
+    "country_to_iso3": "TKM",
+    "border_name": "Uzbekistan–Turkmenistan Crossing",
+    "border_slug": "uzb-tkm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tkm-kaz",
+    "country_from": "Turkmenistan",
+    "country_from_iso3": "TKM",
+    "country_to": "Kazakhstan",
+    "country_to_iso3": "KAZ",
+    "border_name": "Turkmenistan–Kazakhstan Crossing",
+    "border_slug": "tkm-kaz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tkm-uzb",
+    "country_from": "Turkmenistan",
+    "country_from_iso3": "TKM",
+    "country_to": "Uzbekistan",
+    "country_to_iso3": "UZB",
+    "border_name": "Turkmenistan–Uzbekistan Crossing",
+    "border_slug": "tkm-uzb",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tkm-afg",
+    "country_from": "Turkmenistan",
+    "country_from_iso3": "TKM",
+    "country_to": "Afghanistan",
+    "country_to_iso3": "AFG",
+    "border_name": "Turkmenistan–Afghanistan Crossing",
+    "border_slug": "tkm-afg",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tkm-irn",
+    "country_from": "Turkmenistan",
+    "country_from_iso3": "TKM",
+    "country_to": "Iran",
+    "country_to_iso3": "IRN",
+    "border_name": "Turkmenistan–Iran Crossing",
+    "border_slug": "tkm-irn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tjk-uzb",
+    "country_from": "Tajikistan",
+    "country_from_iso3": "TJK",
+    "country_to": "Uzbekistan",
+    "country_to_iso3": "UZB",
+    "border_name": "Tajikistan–Uzbekistan Crossing",
+    "border_slug": "tjk-uzb",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tjk-kgz",
+    "country_from": "Tajikistan",
+    "country_from_iso3": "TJK",
+    "country_to": "Kyrgyzstan",
+    "country_to_iso3": "KGZ",
+    "border_name": "Tajikistan–Kyrgyzstan Crossing",
+    "border_slug": "tjk-kgz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tjk-chn",
+    "country_from": "Tajikistan",
+    "country_from_iso3": "TJK",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Tajikistan–China Crossing",
+    "border_slug": "tjk-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tjk-afg",
+    "country_from": "Tajikistan",
+    "country_from_iso3": "TJK",
+    "country_to": "Afghanistan",
+    "country_to_iso3": "AFG",
+    "border_name": "Tajikistan–Afghanistan Crossing",
+    "border_slug": "tjk-afg",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kgz-kaz",
+    "country_from": "Kyrgyzstan",
+    "country_from_iso3": "KGZ",
+    "country_to": "Kazakhstan",
+    "country_to_iso3": "KAZ",
+    "border_name": "Kyrgyzstan–Kazakhstan Crossing",
+    "border_slug": "kgz-kaz",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kgz-uzb",
+    "country_from": "Kyrgyzstan",
+    "country_from_iso3": "KGZ",
+    "country_to": "Uzbekistan",
+    "country_to_iso3": "UZB",
+    "border_name": "Kyrgyzstan–Uzbekistan Crossing",
+    "border_slug": "kgz-uzb",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kgz-tjk",
+    "country_from": "Kyrgyzstan",
+    "country_from_iso3": "KGZ",
+    "country_to": "Tajikistan",
+    "country_to_iso3": "TJK",
+    "border_name": "Kyrgyzstan–Tajikistan Crossing",
+    "border_slug": "kgz-tjk",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kgz-chn",
+    "country_from": "Kyrgyzstan",
+    "country_from_iso3": "KGZ",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Kyrgyzstan–China Crossing",
+    "border_slug": "kgz-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mng-rus",
+    "country_from": "Mongolia",
+    "country_from_iso3": "MNG",
+    "country_to": "Russia",
+    "country_to_iso3": "RUS",
+    "border_name": "Mongolia–Russia Crossing",
+    "border_slug": "mng-rus",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mng-chn",
+    "country_from": "Mongolia",
+    "country_from_iso3": "MNG",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Mongolia–China Crossing",
+    "border_slug": "mng-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "npl-ind",
+    "country_from": "Nepal",
+    "country_from_iso3": "NPL",
+    "country_to": "India",
+    "country_to_iso3": "IND",
+    "border_name": "Nepal–India Crossing",
+    "border_slug": "npl-ind",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "npl-chn",
+    "country_from": "Nepal",
+    "country_from_iso3": "NPL",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Nepal–China Crossing",
+    "border_slug": "npl-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "btn-ind",
+    "country_from": "Bhutan",
+    "country_from_iso3": "BTN",
+    "country_to": "India",
+    "country_to_iso3": "IND",
+    "border_name": "Bhutan–India Crossing",
+    "border_slug": "btn-ind",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "btn-chn",
+    "country_from": "Bhutan",
+    "country_from_iso3": "BTN",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Bhutan–China Crossing",
+    "border_slug": "btn-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "bgd-ind",
+    "country_from": "Bangladesh",
+    "country_from_iso3": "BGD",
+    "country_to": "India",
+    "country_to_iso3": "IND",
+    "border_name": "Bangladesh–India Crossing",
+    "border_slug": "bgd-ind",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "bgd-mmr",
+    "country_from": "Bangladesh",
+    "country_from_iso3": "BGD",
+    "country_to": "Myanmar",
+    "country_to_iso3": "MMR",
+    "border_name": "Bangladesh–Myanmar Crossing",
+    "border_slug": "bgd-mmr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mmr-ind",
+    "country_from": "Myanmar",
+    "country_from_iso3": "MMR",
+    "country_to": "India",
+    "country_to_iso3": "IND",
+    "border_name": "Myanmar–India Crossing",
+    "border_slug": "mmr-ind",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mmr-chn",
+    "country_from": "Myanmar",
+    "country_from_iso3": "MMR",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Myanmar–China Crossing",
+    "border_slug": "mmr-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mmr-lao",
+    "country_from": "Myanmar",
+    "country_from_iso3": "MMR",
+    "country_to": "Laos",
+    "country_to_iso3": "LAO",
+    "border_name": "Myanmar–Laos Crossing",
+    "border_slug": "mmr-lao",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mmr-tha",
+    "country_from": "Myanmar",
+    "country_from_iso3": "MMR",
+    "country_to": "Thailand",
+    "country_to_iso3": "THA",
+    "border_name": "Myanmar–Thailand Crossing",
+    "border_slug": "mmr-tha",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mmr-bgd",
+    "country_from": "Myanmar",
+    "country_from_iso3": "MMR",
+    "country_to": "Bangladesh",
+    "country_to_iso3": "BGD",
+    "border_name": "Myanmar–Bangladesh Crossing",
+    "border_slug": "mmr-bgd",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "lao-chn",
+    "country_from": "Laos",
+    "country_from_iso3": "LAO",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Laos–China Crossing",
+    "border_slug": "lao-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "lao-vnm",
+    "country_from": "Laos",
+    "country_from_iso3": "LAO",
+    "country_to": "Vietnam",
+    "country_to_iso3": "VNM",
+    "border_name": "Laos–Vietnam Crossing",
+    "border_slug": "lao-vnm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "lao-khm",
+    "country_from": "Laos",
+    "country_from_iso3": "LAO",
+    "country_to": "Cambodia",
+    "country_to_iso3": "KHM",
+    "border_name": "Laos–Cambodia Crossing",
+    "border_slug": "lao-khm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "lao-tha",
+    "country_from": "Laos",
+    "country_from_iso3": "LAO",
+    "country_to": "Thailand",
+    "country_to_iso3": "THA",
+    "border_name": "Laos–Thailand Crossing",
+    "border_slug": "lao-tha",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "lao-mmr",
+    "country_from": "Laos",
+    "country_from_iso3": "LAO",
+    "country_to": "Myanmar",
+    "country_to_iso3": "MMR",
+    "border_name": "Laos–Myanmar Crossing",
+    "border_slug": "lao-mmr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "vnm-chn",
+    "country_from": "Vietnam",
+    "country_from_iso3": "VNM",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "Vietnam–China Crossing",
+    "border_slug": "vnm-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "vnm-lao",
+    "country_from": "Vietnam",
+    "country_from_iso3": "VNM",
+    "country_to": "Laos",
+    "country_to_iso3": "LAO",
+    "border_name": "Vietnam–Laos Crossing",
+    "border_slug": "vnm-lao",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "vnm-khm",
+    "country_from": "Vietnam",
+    "country_from_iso3": "VNM",
+    "country_to": "Cambodia",
+    "country_to_iso3": "KHM",
+    "border_name": "Vietnam–Cambodia Crossing",
+    "border_slug": "vnm-khm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "khm-tha",
+    "country_from": "Cambodia",
+    "country_from_iso3": "KHM",
+    "country_to": "Thailand",
+    "country_to_iso3": "THA",
+    "border_name": "Cambodia–Thailand Crossing",
+    "border_slug": "khm-tha",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "khm-lao",
+    "country_from": "Cambodia",
+    "country_from_iso3": "KHM",
+    "country_to": "Laos",
+    "country_to_iso3": "LAO",
+    "border_name": "Cambodia–Laos Crossing",
+    "border_slug": "khm-lao",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "khm-vnm",
+    "country_from": "Cambodia",
+    "country_from_iso3": "KHM",
+    "country_to": "Vietnam",
+    "country_to_iso3": "VNM",
+    "border_name": "Cambodia–Vietnam Crossing",
+    "border_slug": "khm-vnm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tha-mmr",
+    "country_from": "Thailand",
+    "country_from_iso3": "THA",
+    "country_to": "Myanmar",
+    "country_to_iso3": "MMR",
+    "border_name": "Thailand–Myanmar Crossing",
+    "border_slug": "tha-mmr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tha-lao",
+    "country_from": "Thailand",
+    "country_from_iso3": "THA",
+    "country_to": "Laos",
+    "country_to_iso3": "LAO",
+    "border_name": "Thailand–Laos Crossing",
+    "border_slug": "tha-lao",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tha-khm",
+    "country_from": "Thailand",
+    "country_from_iso3": "THA",
+    "country_to": "Cambodia",
+    "country_to_iso3": "KHM",
+    "border_name": "Thailand–Cambodia Crossing",
+    "border_slug": "tha-khm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tha-mys",
+    "country_from": "Thailand",
+    "country_from_iso3": "THA",
+    "country_to": "Malaysia",
+    "country_to_iso3": "MYS",
+    "border_name": "Thailand–Malaysia Crossing",
+    "border_slug": "tha-mys",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "mys-tha",
+    "country_from": "Malaysia",
+    "country_from_iso3": "MYS",
+    "country_to": "Thailand",
+    "country_to_iso3": "THA",
+    "border_name": "Malaysia–Thailand Crossing",
+    "border_slug": "mys-tha",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "prk-chn",
+    "country_from": "North Korea",
+    "country_from_iso3": "PRK",
+    "country_to": "China",
+    "country_to_iso3": "CHN",
+    "border_name": "North Korea–China Crossing",
+    "border_slug": "prk-chn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "prk-rus",
+    "country_from": "North Korea",
+    "country_from_iso3": "PRK",
+    "country_to": "Russia",
+    "country_to_iso3": "RUS",
+    "border_name": "North Korea–Russia Crossing",
+    "border_slug": "prk-rus",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "prk-kor",
+    "country_from": "North Korea",
+    "country_from_iso3": "PRK",
+    "country_to": "South Korea",
+    "country_to_iso3": "KOR",
+    "border_name": "North Korea–South Korea Crossing",
+    "border_slug": "prk-kor",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kor-prk",
+    "country_from": "South Korea",
+    "country_from_iso3": "KOR",
+    "country_to": "North Korea",
+    "country_to_iso3": "PRK",
+    "border_name": "South Korea–North Korea Crossing",
+    "border_slug": "kor-prk",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irn-irq",
+    "country_from": "Iran",
+    "country_from_iso3": "IRN",
+    "country_to": "Iraq",
+    "country_to_iso3": "IRQ",
+    "border_name": "Iran–Iraq Crossing",
+    "border_slug": "irn-irq",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irn-tur",
+    "country_from": "Iran",
+    "country_from_iso3": "IRN",
+    "country_to": "Turkey",
+    "country_to_iso3": "TUR",
+    "border_name": "Iran–Turkey Crossing",
+    "border_slug": "irn-tur",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irn-arm",
+    "country_from": "Iran",
+    "country_from_iso3": "IRN",
+    "country_to": "Armenia",
+    "country_to_iso3": "ARM",
+    "border_name": "Iran–Armenia Crossing",
+    "border_slug": "irn-arm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irn-aze",
+    "country_from": "Iran",
+    "country_from_iso3": "IRN",
+    "country_to": "Azerbaijan",
+    "country_to_iso3": "AZE",
+    "border_name": "Iran–Azerbaijan Crossing",
+    "border_slug": "irn-aze",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irn-tkm",
+    "country_from": "Iran",
+    "country_from_iso3": "IRN",
+    "country_to": "Turkmenistan",
+    "country_to_iso3": "TKM",
+    "border_name": "Iran–Turkmenistan Crossing",
+    "border_slug": "irn-tkm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irn-afg",
+    "country_from": "Iran",
+    "country_from_iso3": "IRN",
+    "country_to": "Afghanistan",
+    "country_to_iso3": "AFG",
+    "border_name": "Iran–Afghanistan Crossing",
+    "border_slug": "irn-afg",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irn-pak",
+    "country_from": "Iran",
+    "country_from_iso3": "IRN",
+    "country_to": "Pakistan",
+    "country_to_iso3": "PAK",
+    "border_name": "Iran–Pakistan Crossing",
+    "border_slug": "irn-pak",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irq-irn",
+    "country_from": "Iraq",
+    "country_from_iso3": "IRQ",
+    "country_to": "Iran",
+    "country_to_iso3": "IRN",
+    "border_name": "Iraq–Iran Crossing",
+    "border_slug": "irq-irn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irq-tur",
+    "country_from": "Iraq",
+    "country_from_iso3": "IRQ",
+    "country_to": "Turkey",
+    "country_to_iso3": "TUR",
+    "border_name": "Iraq–Turkey Crossing",
+    "border_slug": "irq-tur",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irq-syr",
+    "country_from": "Iraq",
+    "country_from_iso3": "IRQ",
+    "country_to": "Syria",
+    "country_to_iso3": "SYR",
+    "border_name": "Iraq–Syria Crossing",
+    "border_slug": "irq-syr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irq-jor",
+    "country_from": "Iraq",
+    "country_from_iso3": "IRQ",
+    "country_to": "Jordan",
+    "country_to_iso3": "JOR",
+    "border_name": "Iraq–Jordan Crossing",
+    "border_slug": "irq-jor",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irq-sau",
+    "country_from": "Iraq",
+    "country_from_iso3": "IRQ",
+    "country_to": "Saudi Arabia",
+    "country_to_iso3": "SAU",
+    "border_name": "Iraq–Saudi Arabia Crossing",
+    "border_slug": "irq-sau",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "irq-kwt",
+    "country_from": "Iraq",
+    "country_from_iso3": "IRQ",
+    "country_to": "Kuwait",
+    "country_to_iso3": "KWT",
+    "border_name": "Iraq–Kuwait Crossing",
+    "border_slug": "irq-kwt",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-grc",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Greece",
+    "country_to_iso3": "GRC",
+    "border_name": "Turkey–Greece Crossing",
+    "border_slug": "tur-grc",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-bgr",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Bulgaria",
+    "country_to_iso3": "BGR",
+    "border_name": "Turkey–Bulgaria Crossing",
+    "border_slug": "tur-bgr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-geo",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Georgia",
+    "country_to_iso3": "GEO",
+    "border_name": "Turkey–Georgia Crossing",
+    "border_slug": "tur-geo",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-arm",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Armenia",
+    "country_to_iso3": "ARM",
+    "border_name": "Turkey–Armenia Crossing",
+    "border_slug": "tur-arm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-aze",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Azerbaijan",
+    "country_to_iso3": "AZE",
+    "border_name": "Turkey–Azerbaijan Crossing",
+    "border_slug": "tur-aze",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-irn",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Iran",
+    "country_to_iso3": "IRN",
+    "border_name": "Turkey–Iran Crossing",
+    "border_slug": "tur-irn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-irq",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Iraq",
+    "country_to_iso3": "IRQ",
+    "border_name": "Turkey–Iraq Crossing",
+    "border_slug": "tur-irq",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "tur-syr",
+    "country_from": "Turkey",
+    "country_from_iso3": "TUR",
+    "country_to": "Syria",
+    "country_to_iso3": "SYR",
+    "border_name": "Turkey–Syria Crossing",
+    "border_slug": "tur-syr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "geo-rus",
+    "country_from": "Georgia",
+    "country_from_iso3": "GEO",
+    "country_to": "Russia",
+    "country_to_iso3": "RUS",
+    "border_name": "Georgia–Russia Crossing",
+    "border_slug": "geo-rus",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "geo-tur",
+    "country_from": "Georgia",
+    "country_from_iso3": "GEO",
+    "country_to": "Turkey",
+    "country_to_iso3": "TUR",
+    "border_name": "Georgia–Turkey Crossing",
+    "border_slug": "geo-tur",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "geo-arm",
+    "country_from": "Georgia",
+    "country_from_iso3": "GEO",
+    "country_to": "Armenia",
+    "country_to_iso3": "ARM",
+    "border_name": "Georgia–Armenia Crossing",
+    "border_slug": "geo-arm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "geo-aze",
+    "country_from": "Georgia",
+    "country_from_iso3": "GEO",
+    "country_to": "Azerbaijan",
+    "country_to_iso3": "AZE",
+    "border_name": "Georgia–Azerbaijan Crossing",
+    "border_slug": "geo-aze",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "arm-tur",
+    "country_from": "Armenia",
+    "country_from_iso3": "ARM",
+    "country_to": "Turkey",
+    "country_to_iso3": "TUR",
+    "border_name": "Armenia–Turkey Crossing",
+    "border_slug": "arm-tur",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "arm-geo",
+    "country_from": "Armenia",
+    "country_from_iso3": "ARM",
+    "country_to": "Georgia",
+    "country_to_iso3": "GEO",
+    "border_name": "Armenia–Georgia Crossing",
+    "border_slug": "arm-geo",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "arm-aze",
+    "country_from": "Armenia",
+    "country_from_iso3": "ARM",
+    "country_to": "Azerbaijan",
+    "country_to_iso3": "AZE",
+    "border_name": "Armenia–Azerbaijan Crossing",
+    "border_slug": "arm-aze",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "arm-irn",
+    "country_from": "Armenia",
+    "country_from_iso3": "ARM",
+    "country_to": "Iran",
+    "country_to_iso3": "IRN",
+    "border_name": "Armenia–Iran Crossing",
+    "border_slug": "arm-irn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "aze-rus",
+    "country_from": "Azerbaijan",
+    "country_from_iso3": "AZE",
+    "country_to": "Russia",
+    "country_to_iso3": "RUS",
+    "border_name": "Azerbaijan–Russia Crossing",
+    "border_slug": "aze-rus",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "aze-geo",
+    "country_from": "Azerbaijan",
+    "country_from_iso3": "AZE",
+    "country_to": "Georgia",
+    "country_to_iso3": "GEO",
+    "border_name": "Azerbaijan–Georgia Crossing",
+    "border_slug": "aze-geo",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "aze-arm",
+    "country_from": "Azerbaijan",
+    "country_from_iso3": "AZE",
+    "country_to": "Armenia",
+    "country_to_iso3": "ARM",
+    "border_name": "Azerbaijan–Armenia Crossing",
+    "border_slug": "aze-arm",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "aze-irn",
+    "country_from": "Azerbaijan",
+    "country_from_iso3": "AZE",
+    "country_to": "Iran",
+    "country_to_iso3": "IRN",
+    "border_name": "Azerbaijan–Iran Crossing",
+    "border_slug": "aze-irn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "syr-tur",
+    "country_from": "Syria",
+    "country_from_iso3": "SYR",
+    "country_to": "Turkey",
+    "country_to_iso3": "TUR",
+    "border_name": "Syria–Turkey Crossing",
+    "border_slug": "syr-tur",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "syr-irq",
+    "country_from": "Syria",
+    "country_from_iso3": "SYR",
+    "country_to": "Iraq",
+    "country_to_iso3": "IRQ",
+    "border_name": "Syria–Iraq Crossing",
+    "border_slug": "syr-irq",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "syr-jor",
+    "country_from": "Syria",
+    "country_from_iso3": "SYR",
+    "country_to": "Jordan",
+    "country_to_iso3": "JOR",
+    "border_name": "Syria–Jordan Crossing",
+    "border_slug": "syr-jor",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "syr-isr",
+    "country_from": "Syria",
+    "country_from_iso3": "SYR",
+    "country_to": "Israel",
+    "country_to_iso3": "ISR",
+    "border_name": "Syria–Israel Crossing",
+    "border_slug": "syr-isr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "syr-lbn",
+    "country_from": "Syria",
+    "country_from_iso3": "SYR",
+    "country_to": "Lebanon",
+    "country_to_iso3": "LBN",
+    "border_name": "Syria–Lebanon Crossing",
+    "border_slug": "syr-lbn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "jor-isr",
+    "country_from": "Jordan",
+    "country_from_iso3": "JOR",
+    "country_to": "Israel",
+    "country_to_iso3": "ISR",
+    "border_name": "Jordan–Israel Crossing",
+    "border_slug": "jor-isr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "jor-pse",
+    "country_from": "Jordan",
+    "country_from_iso3": "JOR",
+    "country_to": "Palestine",
+    "country_to_iso3": "PSE",
+    "border_name": "Jordan–Palestine Crossing",
+    "border_slug": "jor-pse",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "jor-syr",
+    "country_from": "Jordan",
+    "country_from_iso3": "JOR",
+    "country_to": "Syria",
+    "country_to_iso3": "SYR",
+    "border_name": "Jordan–Syria Crossing",
+    "border_slug": "jor-syr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "jor-irq",
+    "country_from": "Jordan",
+    "country_from_iso3": "JOR",
+    "country_to": "Iraq",
+    "country_to_iso3": "IRQ",
+    "border_name": "Jordan–Iraq Crossing",
+    "border_slug": "jor-irq",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "jor-sau",
+    "country_from": "Jordan",
+    "country_from_iso3": "JOR",
+    "country_to": "Saudi Arabia",
+    "country_to_iso3": "SAU",
+    "border_name": "Jordan–Saudi Arabia Crossing",
+    "border_slug": "jor-sau",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "isr-pse",
+    "country_from": "Israel",
+    "country_from_iso3": "ISR",
+    "country_to": "Palestine",
+    "country_to_iso3": "PSE",
+    "border_name": "Israel–Palestine Crossing",
+    "border_slug": "isr-pse",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "isr-jor",
+    "country_from": "Israel",
+    "country_from_iso3": "ISR",
+    "country_to": "Jordan",
+    "country_to_iso3": "JOR",
+    "border_name": "Israel–Jordan Crossing",
+    "border_slug": "isr-jor",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "isr-egy",
+    "country_from": "Israel",
+    "country_from_iso3": "ISR",
+    "country_to": "Egypt",
+    "country_to_iso3": "EGY",
+    "border_name": "Israel–Egypt Crossing",
+    "border_slug": "isr-egy",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "isr-lbn",
+    "country_from": "Israel",
+    "country_from_iso3": "ISR",
+    "country_to": "Lebanon",
+    "country_to_iso3": "LBN",
+    "border_name": "Israel–Lebanon Crossing",
+    "border_slug": "isr-lbn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "isr-syr",
+    "country_from": "Israel",
+    "country_from_iso3": "ISR",
+    "country_to": "Syria",
+    "country_to_iso3": "SYR",
+    "border_name": "Israel–Syria Crossing",
+    "border_slug": "isr-syr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "pse-isr",
+    "country_from": "Palestine",
+    "country_from_iso3": "PSE",
+    "country_to": "Israel",
+    "country_to_iso3": "ISR",
+    "border_name": "Palestine–Israel Crossing",
+    "border_slug": "pse-isr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "pse-jor",
+    "country_from": "Palestine",
+    "country_from_iso3": "PSE",
+    "country_to": "Jordan",
+    "country_to_iso3": "JOR",
+    "border_name": "Palestine–Jordan Crossing",
+    "border_slug": "pse-jor",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "pse-egy",
+    "country_from": "Palestine",
+    "country_from_iso3": "PSE",
+    "country_to": "Egypt",
+    "country_to_iso3": "EGY",
+    "border_name": "Palestine–Egypt Crossing",
+    "border_slug": "pse-egy",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "lbn-syr",
+    "country_from": "Lebanon",
+    "country_from_iso3": "LBN",
+    "country_to": "Syria",
+    "country_to_iso3": "SYR",
+    "border_name": "Lebanon–Syria Crossing",
+    "border_slug": "lbn-syr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "lbn-isr",
+    "country_from": "Lebanon",
+    "country_from_iso3": "LBN",
+    "country_to": "Israel",
+    "country_to_iso3": "ISR",
+    "border_name": "Lebanon–Israel Crossing",
+    "border_slug": "lbn-isr",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "sau-jor",
+    "country_from": "Saudi Arabia",
+    "country_from_iso3": "SAU",
+    "country_to": "Jordan",
+    "country_to_iso3": "JOR",
+    "border_name": "Saudi Arabia–Jordan Crossing",
+    "border_slug": "sau-jor",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "sau-irq",
+    "country_from": "Saudi Arabia",
+    "country_from_iso3": "SAU",
+    "country_to": "Iraq",
+    "country_to_iso3": "IRQ",
+    "border_name": "Saudi Arabia–Iraq Crossing",
+    "border_slug": "sau-irq",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "sau-kwt",
+    "country_from": "Saudi Arabia",
+    "country_from_iso3": "SAU",
+    "country_to": "Kuwait",
+    "country_to_iso3": "KWT",
+    "border_name": "Saudi Arabia–Kuwait Crossing",
+    "border_slug": "sau-kwt",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "sau-qat",
+    "country_from": "Saudi Arabia",
+    "country_from_iso3": "SAU",
+    "country_to": "Qatar",
+    "country_to_iso3": "QAT",
+    "border_name": "Saudi Arabia–Qatar Crossing",
+    "border_slug": "sau-qat",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "sau-are",
+    "country_from": "Saudi Arabia",
+    "country_from_iso3": "SAU",
+    "country_to": "UAE",
+    "country_to_iso3": "ARE",
+    "border_name": "Saudi Arabia–UAE Crossing",
+    "border_slug": "sau-are",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "sau-omn",
+    "country_from": "Saudi Arabia",
+    "country_from_iso3": "SAU",
+    "country_to": "Oman",
+    "country_to_iso3": "OMN",
+    "border_name": "Saudi Arabia–Oman Crossing",
+    "border_slug": "sau-omn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "sau-yem",
+    "country_from": "Saudi Arabia",
+    "country_from_iso3": "SAU",
+    "country_to": "Yemen",
+    "country_to_iso3": "YEM",
+    "border_name": "Saudi Arabia–Yemen Crossing",
+    "border_slug": "sau-yem",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kwt-irq",
+    "country_from": "Kuwait",
+    "country_from_iso3": "KWT",
+    "country_to": "Iraq",
+    "country_to_iso3": "IRQ",
+    "border_name": "Kuwait–Iraq Crossing",
+    "border_slug": "kwt-irq",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "kwt-sau",
+    "country_from": "Kuwait",
+    "country_from_iso3": "KWT",
+    "country_to": "Saudi Arabia",
+    "country_to_iso3": "SAU",
+    "border_name": "Kuwait–Saudi Arabia Crossing",
+    "border_slug": "kwt-sau",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "qat-sau",
+    "country_from": "Qatar",
+    "country_from_iso3": "QAT",
+    "country_to": "Saudi Arabia",
+    "country_to_iso3": "SAU",
+    "border_name": "Qatar–Saudi Arabia Crossing",
+    "border_slug": "qat-sau",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "are-sau",
+    "country_from": "UAE",
+    "country_from_iso3": "ARE",
+    "country_to": "Saudi Arabia",
+    "country_to_iso3": "SAU",
+    "border_name": "UAE–Saudi Arabia Crossing",
+    "border_slug": "are-sau",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "are-omn",
+    "country_from": "UAE",
+    "country_from_iso3": "ARE",
+    "country_to": "Oman",
+    "country_to_iso3": "OMN",
+    "border_name": "UAE–Oman Crossing",
+    "border_slug": "are-omn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "omn-are",
+    "country_from": "Oman",
+    "country_from_iso3": "OMN",
+    "country_to": "UAE",
+    "country_to_iso3": "ARE",
+    "border_name": "Oman–UAE Crossing",
+    "border_slug": "omn-are",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "omn-sau",
+    "country_from": "Oman",
+    "country_from_iso3": "OMN",
+    "country_to": "Saudi Arabia",
+    "country_to_iso3": "SAU",
+    "border_name": "Oman–Saudi Arabia Crossing",
+    "border_slug": "omn-sau",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "omn-yem",
+    "country_from": "Oman",
+    "country_from_iso3": "OMN",
+    "country_to": "Yemen",
+    "country_to_iso3": "YEM",
+    "border_name": "Oman–Yemen Crossing",
+    "border_slug": "omn-yem",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "yem-omn",
+    "country_from": "Yemen",
+    "country_from_iso3": "YEM",
+    "country_to": "Oman",
+    "country_to_iso3": "OMN",
+    "border_name": "Yemen–Oman Crossing",
+    "border_slug": "yem-omn",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  },
+  {
+    "id": "yem-sau",
+    "country_from": "Yemen",
+    "country_from_iso3": "YEM",
+    "country_to": "Saudi Arabia",
+    "country_to_iso3": "SAU",
+    "border_name": "Yemen–Saudi Arabia Crossing",
+    "border_slug": "yem-sau",
+    "coords": {
+      "lat": 0,
+      "lng": 0
+    },
+    "type": "road",
+    "hours": "24/7",
+    "documents": [
+      "Passport"
+    ],
+    "fees": [],
+    "special_requirements": [],
+    "alternatives": [],
+    "notes": null,
+    "official_source": null,
+    "last_verified": null,
+    "confidence": "medium",
+    "continent": "Asia"
+  }
+]

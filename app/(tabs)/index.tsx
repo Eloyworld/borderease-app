@@ -1,4 +1,5 @@
-﻿import { Image, StyleSheet, View, useWindowDimensions } from 'react-native';
+﻿import { Image, StyleSheet, View, useWindowDimensions } from "react-native";
+import logo from "../../assets/images/logo.png";
 
 export default function HomeScreen() {
   const { width, height } = useWindowDimensions();
@@ -6,12 +7,15 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../assets/images/Logo 2.png')}
-        style={{
-          width: width,
-          height: height * 0.9, // 90% of screen height
-        }}
-        resizeMode="stretch" // same behavior as before
+        source={logo}
+        style={[
+          styles.logo,
+          {
+            width: width,
+            height: height * 0.8, // fill 80% of screen vertically
+          },
+        ]}
+        resizeMode="stretch"
       />
     </View>
   );
@@ -20,8 +24,11 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000', // black background
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: "#ffffff",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  logo: {
+    marginBottom: 20,
   },
 });

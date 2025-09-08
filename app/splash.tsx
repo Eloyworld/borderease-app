@@ -1,34 +1,47 @@
-﻿import { useRouter } from "expo-router";
-import React, { useEffect } from "react";
-import { ImageBackground, StatusBar, StyleSheet, View } from "react-native";
+﻿import React, { useEffect, useRef } from "react";
+import {
+  Animated,
+  ImageBackground,
+  StatusBar,
+  StyleSheet,
+  View,
+} from "react-native";
 
-const SPLASH_MS = 2500; // 2.5 seconds
+type Props = { onFinish?: () => void };
 
-export default function Splash() {
-  const router = useRouter();
+const SPLASH_MS = 3500; // show duration
+
+export default function Splash({ onFinish }: Props) {
+  const opacity = useRef(new Animated.Value(1)).current;
 
   useEffect(() => {
     const t = setTimeout(() => {
-      // 👇 First screen after splash (change if needed)
-      router.replace("/language");
+      // fade out over 500ms, then finish
+      Animated.timing(opacity, {
+        toValue: 0,
+        duration: 500,
+        useNativeDriver: true,
+      }).start(() => onFinish && onFinish());
     }, SPLASH_MS);
 
     return () => clearTimeout(t);
-  }, [router]);
+  }, [onFinish]);
 
   return (
     <View style={styles.container}>
       <StatusBar hidden />
-      <ImageBackground
-        source={require("../assets/splash.png")}
-        style={styles.bg}
-        resizeMode="contain" // 👈 change "contain" → "cover" if you want full bleed
-      />
+      <Animated.View style={{ flex: 1, opacity }}>
+        <ImageBackground
+          source={require("../assets/splash.png")}
+          style={styles.bg}
+          resizeMode="contain"
+        />
+      </Animated.View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#000" },
-  bg: { flex: 1, width: "100%", height: "100%" },
+  bg: { flex: 1, justifyContent: "center", alignItems: "center" },
 });
