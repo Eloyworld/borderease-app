@@ -4,6 +4,9 @@ import logo from "../../assets/images/logo.png";
 export default function HomeScreen() {
   const { width, height } = useWindowDimensions();
 
+  // For testing validation, uncomment the next line:
+  // return <ValidationTest />;
+
   return (
     <View style={styles.container}>
       <Image
