@@ -1,0 +1,29 @@
+name: Update Borders Status
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # runs every day at 02:00 UTC
+  workflow_dispatch:       # allows manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Update borders-status.json
+      run: |
+        echo "Updating borders-status.json..."
+        # Here you can later add a fetch from an API or script.
+        # For now, we just touch the file so it always updates.
+        date > data/borders-status.json
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add data/borders-status.json
+        git commit -m "Auto-update borders-status.json [skip ci]" || echo "No changes to commit"
+        git push
