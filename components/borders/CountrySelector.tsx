@@ -1,7 +1,25 @@
 // components/borders/CountrySelector.tsx
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Modal, TextInput, FlatList } from 'react-native';
+import { FlatList, Modal, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { countries } from '../../data/countries';
+
+// 🔍 Check for duplicates at runtime
+const seen = new Set<string>();
+const duplicates: string[] = [];
+
+countries.forEach(c => {
+  if (seen.has(c.id)) {
+    duplicates.push(c.id);
+  } else {
+    seen.add(c.id);
+  }
+});
+
+if (duplicates.length > 0) {
+  console.warn(
+    `[CountrySelector] Duplicate country IDs detected: ${duplicates.join(', ')}`
+  );
+}
 
 interface CountrySelectorProps {
   selectedCountry: string | null;
@@ -69,7 +87,7 @@ export default function CountrySelector({
             {displayedCountries.length > 0 ? (
               <FlatList
                 data={displayedCountries}
-                keyExtractor={(item) => item.id}
+                keyExtractor={(item, index) => `${item.id}-${index}`}
                 renderItem={({ item }) => (
                   <TouchableOpacity
                     style={[

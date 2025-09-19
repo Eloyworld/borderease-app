@@ -1,59 +1,49 @@
 // components/borders/NeighborList.tsx
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { countries } from '../../data/countries';
 
 interface NeighborListProps {
-  currentCountry: string;
-  onSelectNeighbor: (countryId: string) => void;
+  neighbors: string[]; // Array of neighbor country IDs
+  countryId: string; // current country
+  onSelectNeighbor: (neighborId: string) => void;
 }
 
-export default function NeighborList({ currentCountry, onSelectNeighbor }: NeighborListProps) {
-  const current = countries.find(c => c.id === currentCountry);
-  if (!current) return null;
-
-  const neighbors = countries.filter(c => current.neighbors.includes(c.id));
+export default function NeighborList({ neighbors, countryId, onSelectNeighbor }: NeighborListProps) {
+  const neighborCountries = neighbors
+    .map(id => countries.find(c => c.id === id))
+    .filter(Boolean) as typeof countries;
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Neighboring Countries</Text>
-      <View style={styles.neighborList}>
-        {neighbors.map(country => (
+      <Text style={styles.header}>Neighbor Countries</Text>
+      <FlatList
+        data={neighborCountries}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
           <TouchableOpacity
-            key={country.id}
             style={styles.neighborButton}
-            onPress={() => onSelectNeighbor(country.id)}
+            onPress={() => onSelectNeighbor(item.id)}
           >
-            <Text style={styles.neighborText}>{country.name}</Text>
+            <Text style={styles.neighborText}>{item.name}</Text>
           </TouchableOpacity>
-        ))}
-      </View>
+        )}
+        horizontal
+        showsHorizontalScrollIndicator={false}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    padding: 16,
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 16,
-  },
-  neighborList: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 8,
-  },
+  container: { marginVertical: 16 },
+  header: { fontSize: 16, fontWeight: 'bold', marginBottom: 8, marginLeft: 16 },
   neighborButton: {
-    padding: 12,
-    backgroundColor: '#e8f4f8',
+    backgroundColor: '#e3f2fd',
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    marginHorizontal: 8,
     borderRadius: 8,
-    minWidth: 100,
-    alignItems: 'center',
   },
-  neighborText: {
-    fontSize: 14,
-  },
+  neighborText: { fontSize: 14, fontWeight: 'bold', color: '#1976d2' },
 });

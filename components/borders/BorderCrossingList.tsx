@@ -1,5 +1,6 @@
+// components/borders/BorderCrossingList.tsx
 import React from 'react';
-import { ActivityIndicator, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { countries } from '../../data/countries';
 import { useBorderStatus } from '../../hooks/useBorderStatus';
 import { findAlternativeRoutes, getBorderStatus } from '../../utils/routeFinding';
@@ -12,7 +13,6 @@ interface BorderCrossingListProps {
 export default function BorderCrossingList({ fromCountry, toCountry }: BorderCrossingListProps) {
   const from = countries.find(c => c.id === fromCountry);
   const to = countries.find(c => c.id === toCountry);
-  
   if (!from || !to) return null;
 
   const borderStatus = getBorderStatus(fromCountry, toCountry);
@@ -20,7 +20,7 @@ export default function BorderCrossingList({ fromCountry, toCountry }: BorderCro
   const directCrossings = from.borderCrossings.filter(crossing => crossing.toCountry === toCountry);
 
   return (
-    <ScrollView style={styles.container}>
+    <View style={styles.container}>
       <View style={styles.statusHeader}>
         <Text style={styles.header}>Border Status: {from.name} → {to.name}</Text>
         <Text style={[
@@ -33,53 +33,44 @@ export default function BorderCrossingList({ fromCountry, toCountry }: BorderCro
         </Text>
       </View>
 
-      {directCrossings.map(crossing => (
-        <CrossingCard 
-          key={crossing.id} 
-          crossing={crossing} 
-          fromCountry={fromCountry}
-          toCountry={toCountry}
-        />
-      ))}
-
-      {/* ALTERNATIVE ROUTES SECTION - NEW */}
-      {borderStatus.status === 'closed' && alternativeRoutes.length > 0 && (
-        <View style={styles.alternativesSection}>
-          <Text style={styles.alternativesHeader}>Alternative Routes:</Text>
-          {alternativeRoutes.slice(0, 3).map((route, index) => (
-            <View key={index} style={styles.alternativeCard}>
-              <Text style={styles.alternativeTitle}>
-                Via {route.details.via.join(' → ')}
-              </Text>
-              <Text style={styles.alternativeInfo}>• Borders: {route.totalBorders}</Text>
-              <Text style={styles.alternativeInfo}>• Time: {route.estimatedTime} min</Text>
-              <Text style={styles.alternativeInfo}>• Status: All open</Text>
+      <FlatList
+        data={directCrossings}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
+          <CrossingCard
+            crossing={item}
+            fromCountry={fromCountry}
+            toCountry={toCountry}
+          />
+        )}
+        ListFooterComponent={
+          borderStatus.status === 'closed' && alternativeRoutes.length > 0 ? (
+            <View style={styles.alternativesSection}>
+              <Text style={styles.alternativesHeader}>Alternative Routes:</Text>
+              {alternativeRoutes.slice(0, 3).map((route, index) => (
+                <View key={index} style={styles.alternativeCard}>
+                  <Text style={styles.alternativeTitle}>
+                    Via {route.details.via.join(' → ')}
+                  </Text>
+                  <Text style={styles.alternativeInfo}>• Borders: {route.totalBorders}</Text>
+                  <Text style={styles.alternativeInfo}>• Time: {route.estimatedTime} min</Text>
+                  <Text style={styles.alternativeInfo}>• Status: All open</Text>
+                </View>
+              ))}
             </View>
-          ))}
-        </View>
-      )}
-
-      {borderStatus.status === 'closed' && alternativeRoutes.length === 0 && (
-        <View style={styles.noAlternatives}>
-          <Text style={styles.noAlternativesText}>
-            No alternative routes found
-          </Text>
-        </View>
-      )}
-    </ScrollView>
+          ) : borderStatus.status === 'closed' && alternativeRoutes.length === 0 ? (
+            <View style={styles.noAlternatives}>
+              <Text style={styles.noAlternativesText}>No alternative routes found</Text>
+            </View>
+          ) : null
+        }
+      />
+    </View>
   );
 }
 
-function CrossingCard({ crossing, fromCountry, toCountry }: { 
-  crossing: any; 
-  fromCountry: string; 
-  toCountry: string; 
-}) {
-  const { status: apiStatus, loading, updateStatus } = useBorderStatus(
-    fromCountry, 
-    toCountry, 
-    crossing.id
-  );
+function CrossingCard({ crossing, fromCountry, toCountry }: { crossing: any; fromCountry: string; toCountry: string }) {
+  const { status: apiStatus, loading, updateStatus } = useBorderStatus(fromCountry, toCountry, crossing.id);
 
   const currentStatus = apiStatus?.status || crossing.status;
   const currentWaitTime = apiStatus?.waitTime || crossing.waitTime;
@@ -88,9 +79,9 @@ function CrossingCard({ crossing, fromCountry, toCountry }: {
   return (
     <View style={styles.crossingCard}>
       <Text style={styles.crossingName}>{crossing.name}</Text>
-      
+
       {loading && <ActivityIndicator size="small" />}
-      
+
       <Text style={[
         styles.statusText,
         currentStatus === 'open' && styles.statusOpen,
@@ -101,48 +92,29 @@ function CrossingCard({ crossing, fromCountry, toCountry }: {
       </Text>
 
       <View style={styles.statusButtons}>
-        <TouchableOpacity 
+        <TouchableOpacity
           style={[styles.statusButton, currentStatus === 'open' && styles.statusButtonActive]}
-          onPress={() => updateStatus({
-            fromCountry,
-            toCountry,
-            crossingId: crossing.id,
-            status: 'open',
-            waitTime: 60
-          })}
+          onPress={() => updateStatus({ fromCountry, toCountry, crossingId: crossing.id, status: 'open', waitTime: 60 })}
         >
           <Text style={styles.statusButtonText}>Open</Text>
         </TouchableOpacity>
-        
-        <TouchableOpacity 
+
+        <TouchableOpacity
           style={[styles.statusButton, currentStatus === 'closed' && styles.statusButtonActive]}
-          onPress={() => updateStatus({
-            fromCountry,
-            toCountry,
-            crossingId: crossing.id,
-            status: 'closed'
-          })}
+          onPress={() => updateStatus({ fromCountry, toCountry, crossingId: crossing.id, status: 'closed' })}
         >
           <Text style={styles.statusButtonText}>Closed</Text>
         </TouchableOpacity>
-        
-        <TouchableOpacity 
+
+        <TouchableOpacity
           style={[styles.statusButton, currentStatus === 'restricted' && styles.statusButtonActive]}
-          onPress={() => updateStatus({
-            fromCountry,
-            toCountry,
-            crossingId: crossing.id,
-            status: 'restricted',
-            waitTime: 120
-          })}
+          onPress={() => updateStatus({ fromCountry, toCountry, crossingId: crossing.id, status: 'restricted', waitTime: 120 })}
         >
           <Text style={styles.statusButtonText}>Restricted</Text>
         </TouchableOpacity>
       </View>
 
-      {currentWaitTime && (
-        <Text style={styles.waitTime}>Wait time: {currentWaitTime} minutes</Text>
-      )}
+      {currentWaitTime && <Text style={styles.waitTime}>Wait time: {currentWaitTime} minutes</Text>}
 
       {currentStatus === 'open' && (
         <>
@@ -170,9 +142,9 @@ function CrossingCard({ crossing, fromCountry, toCountry }: {
           )}
         </>
       )}
-      
+
       <Text style={styles.lastUpdated}>
-       lastUpdated ? new Date(lastUpdated).toLocaleDateString() : 'Date not available'
+        {lastUpdated ? new Date(lastUpdated).toLocaleDateString() : 'Date not available'}
       </Text>
     </View>
   );
@@ -198,7 +170,6 @@ const styles = StyleSheet.create({
   sectionTitle: { fontWeight: 'bold', marginBottom: 4, color: '#34495e' },
   listItem: { marginLeft: 8, marginBottom: 2, color: '#555' },
   lastUpdated: { fontSize: 12, color: '#999', fontStyle: 'italic', marginTop: 8 },
-  // NEW STYLES FOR ALTERNATIVE ROUTES:
   alternativesSection: { marginTop: 24, padding: 16, backgroundColor: '#f0f8ff', borderRadius: 8 },
   alternativesHeader: { fontSize: 18, fontWeight: 'bold', marginBottom: 16, color: '#1976d2' },
   alternativeCard: { backgroundColor: '#fff', padding: 16, marginBottom: 12, borderRadius: 8, borderWidth: 1, borderColor: '#bbdefb' },
