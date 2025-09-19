@@ -1,0 +1,26 @@
+{
+  "ir-pk": {
+    "status": "open",
+    "waitTime": 60,
+    "lastUpdated": "2025-09-18T10:00:00Z",
+    "source": "auto-news"
+  },
+  "pk-ir": {
+    "status": "open",
+    "waitTime": 90,
+    "lastUpdated": "2025-09-18T10:00:00Z",
+    "source": "auto-news"
+  },
+  "om-sa": {
+    "status": "open",
+    "waitTime": 120,
+    "lastUpdated": "2025-09-17T12:00:00Z",
+    "source": "manual"
+  },
+  "sa-om": {
+    "status": "open",
+    "waitTime": 120,
+    "lastUpdated": "2025-09-17T12:00:00Z",
+    "source": "manual"
+  }
+}
