@@ -11,8 +11,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    },
+  "bundleIdentifier": "com.anonymous.beyondborders",
+  "supportsTablet": true
+},
     "android": {
       "package": "com.anonymous.beyondborders"
     },
